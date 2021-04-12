@@ -381,7 +381,7 @@
     if (maxYear == 1999) {
       maxYear = 2000;
     }
-    console.log('LOG: switching to years ' + minYear + ', ' + maxYear);
+    console.log('LOG: switching to years ' + minYear + ', ' + maxYear + '; ' + Date.now());
     getData().then(fetchedData => {
       let stackedValues = fetchedData.stacked_values;
       let stackedData = fetchedData.stacked_data;
@@ -406,7 +406,7 @@
       .text(d => d.charAt(0).toUpperCase() + d.slice(1))
       .on("click", (e, attributeName) => {
         currentAttribute = attributeName;
-        console.log('LOG: switched to attribute: ' + currentAttribute);
+        console.log('LOG: switched to attribute: ' + currentAttribute + '; ' + Date.now());
         getData().then(fetchedData => {
           let stackedValues = fetchedData.stacked_values;
           let stackedData = fetchedData.stacked_data;
@@ -433,7 +433,7 @@
         maxYear = 2017;
         domainMin = minYear;
         domainMax = maxYear;
-        console.log('LOG: reset');
+        console.log('LOG: reset' + '; ' + Date.now());
         getData().then(fetchedData => {
           let stackedValues = fetchedData.stacked_values;
           let stackedData = fetchedData.stacked_data;

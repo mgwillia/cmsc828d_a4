@@ -24,3 +24,9 @@ For all charts, **brushing an area (click and drag box) on the primary visualiza
 The **RESET button** resets the time range. It does not change the backend. This was to address a deduction from my A2. There are also now titles for the y axes, to address the other deduction.
 
 There are **backend buttons** at the top to toggle between backends. A3 is the default.
+
+# User Study
+
+Please take the survey at the following link. It will also walk you throught the study. All questions are meant to be answered with no prior knowledge about basketball or the visualization beyond the statements in "Navigating the Interface."
+
+https://docs.google.com/forms/d/e/1FAIpQLScNftK45CGiCXlFdU-NsgsBIYmVqfSxPt47dgk_LOLQIZtTDw/viewform?usp=sf_link
